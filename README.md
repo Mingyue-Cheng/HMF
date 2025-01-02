@@ -107,5 +107,5 @@ If you use this code in your research, please cite our paper:
 
 ## 📬 Contact
 
-For questions or collaborations, please contact **your_email@example.com**.
+For questions or collaborations, please contact **mycheng@ustc.edu.cn**.
 ```
