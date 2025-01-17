@@ -1,0 +1,76 @@
+
+python -u runa.py \
+  --is_training 1 \
+  --root_path ./datasets/blood_part_$num \
+  --save_path ./results/our_blood_$num \
+  --iter_path 0 \
+  --split_name cutted1sinput15mpredict5m\
+  --model $model_name \
+  --data BLOOD \
+  --data_path all_patient_1.csv \
+  --features MS \
+  --seq_len 900 \
+  --label_len 450 \
+  --pred_len 300 \
+  --learning_rate 1e-4 \
+  --factor 3 \
+  --enc_in 2 \
+  --dec_in 2 \
+  --c_out 1 \
+  --train_epochs 100 \
+  --dropout 0.1\
+  --target map\
+  --batch_size 32\
+  --train_autoregression False\
+  --patience 3
+
+python -u runa.py \
+  --is_training 1 \
+  --root_path ./datasets/blood_part_$num \
+  --save_path ./results/our_blood_$num \
+  --iter_path 0 \
+  --split_name cutted1sinput15mpredict10m\
+  --model $model_name \
+  --data BLOOD \
+  --data_path all_patient_1.csv \
+  --features MS \
+  --seq_len 900 \
+  --label_len 450 \
+  --pred_len 600 \
+  --learning_rate 1e-4 \
+  --factor 3 \
+  --enc_in 2 \
+  --dec_in 2 \
+  --c_out 1 \
+  --train_epochs 100 \
+  --dropout 0.1\
+  --target map\
+  --batch_size 32\
+  --train_autoregression False\
+  --patience 3
+
+python -u runa.py \
+  --is_training 1 \
+  --root_path ./datasets/blood_part_$num \
+  --save_path ./results/our_blood_$num \
+  --iter_path 0 \
+  --split_name cutted1sinput15mpredict15m\
+  --model $model_name \
+  --data BLOOD \
+  --data_path all_patient_1.csv \
+  --features MS \
+  --seq_len 900 \
+  --label_len 450 \
+  --pred_len 900 \
+  --learning_rate 1e-4 \
+  --factor 3 \
+  --enc_in 2 \
+  --dec_in 2 \
+  --c_out 1 \
+  --train_epochs 100 \
+  --dropout 0.1\
+  --target map\
+  --batch_size 32\
+  --train_autoregression False\
+  --patience 3
+  
