@@ -3,11 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)  
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)  
 
-This repository provides the implementation of **HMF**, a Hybrid Multi-Factor framework for dynamic intraoperative hypotension (IOH) prediction. The code accompanies our paper:
-
-**HMF: A Hybrid Multi-Factor Framework for Dynamic Intraoperative Hypotension Prediction**  
-*Mingyue Cheng, Jintao Zhang, Zhiding Liu, Chunli Liu, Yanhu Xie*  
-arXiv preprint: [arXiv:2409.11064](https://arxiv.org/abs/2409.11064)
+This repository provides the implementation of **HMF**, a Hybrid Multi-Factor framework for dynamic intraoperative hypotension (IOH) prediction. 
 
 ---
 
