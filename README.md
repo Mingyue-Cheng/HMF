@@ -1,4 +1,4 @@
-# HMF: A Hybrid Multi-Factor Framework for Dynamic Intraoperative Hypotension Prediction
+# A Hybrid Multi-Factor Network with Dynamic Sequence Modeling for Early Warning of Intraoperative Hypotension
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)  
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)  
@@ -84,20 +84,6 @@ We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) fil
 ## 📜 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-## 📖 Citation
-
-If you use this code in your research, please cite our paper:
-```bibtex
-@article{cheng2024hmf,
-  title={HMF: A Hybrid Multi-Factor Framework for Dynamic Intraoperative Hypotension Prediction},
-  author={Cheng, Mingyue and Zhang, Jintao and Liu, Zhiding and Liu, Chunli and Xie, Yanhu},
-  journal={arXiv preprint arXiv:2409.11064},
-  year={2024}
-}
-```
 
 ---
 
