@@ -87,7 +87,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 
-## 📬 Contact
 
-For questions or collaborations, please contact **mycheng@ustc.edu.cn**.
 ```
