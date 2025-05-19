@@ -18,6 +18,8 @@ class Model(nn.Module):
         self.device = torch.device(f'cuda:{configs.gpu}' if configs.use_gpu else 'cpu')
         self.patch_stride = self.stride // configs.patch_num
         self.patch_kernel = self.patch_stride
+        self.conv_kernel = self.stride
+        self.conv_stride = self.stride
         self.patch_padding = 0
         self.patch_conv_len =((self.stride + 2 * self.patch_padding - self.patch_kernel) // self.patch_stride) + 1
         self.conv_len = ((self.actual_len + 2 * self.patch_padding - self.patch_kernel) // self.patch_stride) + 1
