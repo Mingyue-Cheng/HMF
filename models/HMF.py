@@ -21,6 +21,9 @@ class Model(nn.Module):
         self.conv_kernel = self.stride
         self.conv_stride = self.stride
         self.patch_padding = 0
+        self.patch_num = 50
+        self.patch_stride = self.stride // self.patch_num
+        self.patch_kernel = self.patch_stride
         self.patch_conv_len =((self.stride + 2 * self.patch_padding - self.patch_kernel) // self.patch_stride) + 1
         self.conv_len = ((self.actual_len + 2 * self.patch_padding - self.patch_kernel) // self.patch_stride) + 1
         self.enc_decompsition = series_decomp(configs.moving_avg)
